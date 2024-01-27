@@ -1,0 +1,53 @@
+#thumbnail-container {
+  display: flex;
+  width: 50vw;
+  height: 15vh;
+  position: absolute;
+  margin: 5px;
+  padding: 2px;
+  left: 25%;
+  top: 2rem;
+  overflow: scroll;
+  border: 3px solid black;
+}
+
+#backgroundImage {
+  width: 100%;
+  height: 100vh;
+  position: static;
+  background-size: cover;
+  overflow: hidden;
+}
+
+* {
+  margin: 0px;
+}
+
+#left-button {
+  left: 4rem;
+  bottom: 50%;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  opacity: 80%;
+}
+#right-button {
+  right: 4rem;
+  bottom: 50%;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  opacity: 80%;
+}
+#picture-hover {
+  border: 4px solid white;
+  height: 14vh;
+  width: 150px;
+  position: absolute;
+  display: flex;
+  left: 45%;
+}
